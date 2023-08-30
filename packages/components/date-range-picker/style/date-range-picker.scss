@@ -1,0 +1,46 @@
+.oom-date-range-container {
+  position: relative;
+
+  .active {
+    :deep(.el-input__wrapper) {
+      box-shadow: 0 0 0 1px var(--el-input-focus-border-color) inset;
+    }
+  }
+
+  .datepickers {
+    position: absolute;
+    top: 2px;
+    left: calc(var(--el-input-prefix-width, 0) + 11px);
+    right: 11px;
+    bottom: 2px;
+    display: flex;
+    align-items: center;
+
+    & > div {
+      display: flex;
+      align-items: center;
+      height: 100%;
+    }
+
+    .date-picker {
+      --el-component-size: 28px;
+      flex: 1;
+
+      :deep(.el-input__wrapper) {
+        box-shadow: none;
+
+        .el-input__prefix {
+          display: none;
+        }
+
+        .el-input__inner {
+          text-align: center;
+        }
+
+        .el-input__suffix {
+          width: calc(1em + 8px);
+        }
+      }
+    }
+  }
+}
