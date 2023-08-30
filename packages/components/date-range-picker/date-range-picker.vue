@@ -21,10 +21,10 @@
 <script setup lang="ts">
 import { ref, reactive, computed, watch } from 'vue';
 import { ElInput, ElDatePicker, dayjs } from 'element-plus';
-import './style/date-range-picker.scss'
+import './style/date-range-picker.scss';
 
 defineOptions({
-  name: 'OOMDateRangePicker',
+  name: 'DateRangePicker',
   inheritAttrs: true
 });
 

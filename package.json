@@ -1,6 +1,7 @@
 {
   "privite": true,
   "scripts": {
+    "dev": "pnpm run -C internal/example dev",
     "clean": "pnpm run clean:dist && pnpm run -r --parallel clean",
     "clean:dist": "rimraf dist",
     "build": "pnpm run -C internal/build start"

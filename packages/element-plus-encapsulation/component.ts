@@ -1,5 +1,5 @@
-import { OOMDateRangePicker } from '@element-plus-encapsulation/components/date-range-picker';
+import { DateRangePicker } from '@element-plus-encapsulation/components/date-range-picker';
 
 export default [
-  OOMDateRangePicker
+  DateRangePicker
 ]

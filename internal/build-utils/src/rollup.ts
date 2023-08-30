@@ -10,8 +10,6 @@ export const generateExternal = (options: { full: boolean }) => {
       packages.push('@vue', ...dependencies)
     }
 
-    if (id.endsWith('.scss')) return true;
-
     return [...new Set(packages)].some(
       (pkg) => id === pkg || id.startsWith(`${pkg}/`)
     )

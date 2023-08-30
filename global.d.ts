@@ -1,7 +1,7 @@
 // GlobalComponents for Volar
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    OOMDateRangePicker: typeof import('element-plus-encapsulation')['OOMDateRangePicker']
+    OomDateRangePicker: typeof import('@instance-oom/element-plus-encapsulation')['DateRangePicker']
   }
 }
 export { }
