@@ -3,5 +3,4 @@ packages:
   - 'internal/*'
 
 registries:
-  default: https://a.newegg.org/artifactory/api/npm/newegg-npm/
   npm-registry: https://registry.npmjs.org/
